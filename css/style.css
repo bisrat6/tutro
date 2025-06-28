@@ -480,6 +480,14 @@ header nav .mobile-menu{
     z-index: 10000;
 }
 @media (max-width:768px){
+    .hamburger-menu{
+        &:hover{
+            color:white;
+        }
+        &:focus{
+            color:rgb(255, 213, 0);
+        }
+    }
     header nav{
         padding:0 20px;
     }
